@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="48" fill="#16a34a"/>
+  <text x="50%" y="55%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="120" fill="#ffffff" dy=".35em">ELC</text>
+</svg>
