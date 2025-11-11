@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELC</title>
+  <style>
+    :root { --brand:#16a34a; }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fb; color: #1a1a1a; }
+    header { background: var(--brand); color: white; padding: 1.25rem 1rem; }
+    .wrap { max-width: 1100px; margin: 0 auto; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .brand { font-size: 1.25rem; font-weight: 700; margin:0; }
+    nav a { color: #ecfdf5; text-decoration: none; margin: 0 .75rem; font-weight:600; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: #eaf7ef; padding: 2.25rem 1rem; border-bottom: 1px solid #e2e8f0; }
+    .hero h1 { margin:0 0 .5rem 0; font-size: 1.8rem; color:#111827; }
+    .hero p { margin:0; color:#334155; }
+    section { max-width: 900px; margin: auto; padding: 2rem 1rem; }
+    h2 { color: var(--brand); margin-top:0; }
+    .services ul { margin-left: 1rem; }
+    .badges { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+    .badge { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:1rem; }
+    .badge h3 { margin:.25rem 0 .5rem; font-size:1rem; color:#111827; }
+    .muted { color:#6b7280; font-size:.9rem; }
+    footer { text-align: center; padding: 1rem; background: #eee; font-size: 0.9rem; line-height:1.4; }
+    .footer-small { font-size:.8rem; color:#6b7280; }
+    .legal h3 { margin-top:0; }
+    .toplink { position:fixed; right:12px; bottom:12px; background:var(--brand); color:#fff; padding:.5rem .75rem; border-radius:999px; text-decoration:none; font-weight:700; }
+  </style>
+</head>
+<body>
+  <header>
+  <div class="wrap">
+    <div class="brand">ELC</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#trust">Trust</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+    </nav>
+  </div>
+</header>
+<div class="hero">
+  <section class="wrap">
+    <h1>Enterprise Cloud & Data Modernization Consulting</h1>
+    <p>Secure pipelines, cloud workflows, and interoperable data platforms on Snowflake, AWS, ServiceNow, dbt, Informatica, and Qlik.</p>
+  </section>
+</div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>ELC is a data modernization consultancy helping enterprises migrate and optimize legacy systems on Snowflake, AWS, dbt, Qlik, Informatica, and ServiceNow. We design and implement secure, automated data pipelines and cloud workflows that modernize legacy architectures, integrate enterprise applications, and unlock real-time operational and analytics value.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>What We Do</h2>
+    <ul>
+      <li>Cloud migration and modernization</li>
+      <li>Data pipeline automation and orchestration</li>
+      <li>Enterprise application integration</li>
+      <li>Analytics & AI‑ready data architecture</li>
+    </ul>
+  </section>
+
+  <section id="platforms">
+    <h2>Platforms We Support</h2>
+    <p>Snowflake · AWS · ServiceNow · dbt · Informatica · Qlik</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: Lucia@solutionarchitectai.onmicrosoft.com</p>
+    <p>Location: United States</p>
+  </section>
+
+  <section id="trust">
+    <h2>Trust & Compliance</h2>
+    <div class="badges">
+      <div class="badge">
+        <h3>D‑U‑N‑S Verified</h3>
+        <p class="muted">Trade name <strong>ELC</strong> recognized by Dun & Bradstreet. Legal entity: <em>Espresso Latte and Cats LLC</em>.</p>
+      </div>
+      <div class="badge">
+        <h3>HIPAA‑Ready Approach</h3>
+        <p class="muted">Healthcare data handled with least‑privilege access, encryption in transit/at rest, and BAA‑friendly cloud patterns.</p>
+      </div>
+      <div class="badge">
+        <h3>SOC 2‑Aligned Controls</h3>
+        <p class="muted">Change control, audit logging, and CI/CD checks aligned to SOC 2 principles. (Advisory posture; not a certification claim.)</p>
+      </div>
+      <div class="badge">
+        <h3>Security by Design</h3>
+        <p class="muted">Secrets management, MFA, network isolation, data masking, and column‑level security as baseline defaults.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy" class="legal">
+    <h2>Privacy Policy</h2>
+    <h3>Overview</h3>
+    <p>ELC respects your privacy. We collect minimal information (e.g., contact details you provide via email) solely to respond to inquiries and deliver services. We do not sell personal data.</p>
+    <h3>What We Collect</h3>
+    <ul>
+      <li>Contact details you send us (name, email, company)</li>
+      <li>Operational data needed to perform contracted services</li>
+    </ul>
+    <h3>How We Use It</h3>
+    <ul>
+      <li>To communicate about services, proposals, and support</li>
+      <li>To operate, secure, and improve our offerings</li>
+    </ul>
+    <h3>Security</h3>
+    <p>We use industry‑standard security practices including encryption in transit, access control, and audit logging in our cloud environments.</p>
+    <h3>Your Choices</h3>
+    <p>Email us to access, correct, or delete your information. We honor applicable privacy laws.</p>
+    <p class="muted">Contact: Lucia@solutionarchitectai.onmicrosoft.com</p>
+  </section>
+
+  <section id="terms" class="legal">
+    <h2>Terms of Service</h2>
+    <h3>Scope</h3>
+    <p>These terms govern your use of this site and any informational materials we publish. Engagements are covered by separate Statements of Work and Master Service Agreements (MSA).</p>
+    <h3>Acceptable Use</h3>
+    <p>No reverse engineering, scraping, or misuse of content. Do not upload confidential information through unapproved channels.</p>
+    <h3>Disclaimers</h3>
+    <p>Content is provided “as is” without warranties. We are not liable for indirect or consequential damages arising from site use.</p>
+    <h3>Governing Law</h3>
+    <p>Governing law is the State of Florida, USA, unless otherwise agreed in writing.</p>
+    <p class="muted">Contact: Lucia@solutionarchitectai.onmicrosoft.com</p>
+  </section>
+
+  <footer>
+    © 2025 Espresso Latte and Cats LLC (ELC). All Rights Reserved.<br/>
+    <span class="footer-small">“ELC” is a trade name of Espresso Latte and Cats LLC.</span>
+  </footer>
+  <a class="toplink" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Top</a>
+</body>
+</html>
